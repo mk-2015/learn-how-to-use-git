@@ -4,7 +4,7 @@
 - Initialize repo:  
   `git init`
 - Add remote (SSH):  
-  `git remote add origin git@github.com:mk-2015/sandboxels-hive.git`
+  `git remote add origin git@github.com:user/reposotry.git`
 - Verify remotes:  
   `git remote -v`
 
@@ -24,6 +24,15 @@
   `git commit -m "Message here"`
 - Push branch:  
   `git push -u origin main`
+
+### Rename master to main
+- Push all changes to master first:
+ `git push -u origin master`
+- Now do the switching:
+ `git branch -M main`
+ `git push -u origin main`
+
+
 
 ## Branch Management
 - Rename branch to main:  
